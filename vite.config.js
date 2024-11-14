@@ -19,6 +19,14 @@ export default defineConfig({
             sizes: '192x192',
             type: 'image/png'
           }
+        ],
+        splash_screens: [
+          {
+            src: '/images/splash.png', // Caminho para a imagem de splash
+            sizes: '1080x1920',
+            type: 'image/png',
+            purpose: 'any' // Pode ser "any" ou "maskable" dependendo do efeito que você quer
+          }
         ]
       }
     })
