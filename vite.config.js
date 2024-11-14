@@ -22,10 +22,10 @@ export default defineConfig({
         ],
         splash_screens: [
           {
-            src: '/images/splash.png', // Caminho para a imagem de splash
+            src: '/splash.png',
             sizes: '1080x1920',
             type: 'image/png',
-            purpose: 'any' // Pode ser "any" ou "maskable" dependendo do efeito que você quer
+            purpose: 'any'
           }
         ]
       }
